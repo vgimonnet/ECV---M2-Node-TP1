@@ -1,6 +1,4 @@
 const http = require('http');
-const url = require('url');
-
 
 const server = http.createServer((req, res) => {
   const url = new URL(`http://localhost:3000/${req.url}`);
